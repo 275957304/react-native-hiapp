@@ -1,5 +1,6 @@
 module.exports = {
   root: true,
+  parser: 'babel-eslint',
   extends: [
     'standard',
     'plugin:react/recommended'
@@ -14,6 +15,7 @@ module.exports = {
     'indent': ['error', 2, { 'SwitchCase': 1 }],
     'arrow-parens': 0,
     'generator-star-spacing': 0,
+    'space-before-function-paren': 0,
     'react-native/no-unused-styles': 2,
     'react-native/split-platform-components': 2,
     'react-native/no-inline-styles': 2

@@ -36,10 +36,6 @@ export default TabNavigator(
   },
   {
     navigationOptions: ({ navigation }) => ({
-      headerTintColor: '#ffffff',
-      headerStyle: {
-        backgroundColor: Colors.tintColor,
-      },
       tabBarIcon: ({ focused }) => { // eslint-disable-line
         const { routeName } = navigation.state
         const iconName = focused ? tabIconfont[`${routeName}Selected`] : tabIconfont[routeName]

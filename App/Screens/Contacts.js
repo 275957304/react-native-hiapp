@@ -5,10 +5,8 @@ import {
 } from 'react-native'
 
 export default class ContactsScreen extends React.Component {
-  static navigationOptions () {
-    return {
-      title: 'Contacts',
-    }
+  static navigationOptions = {
+    title: 'Contacts'
   }
 
   render () {
