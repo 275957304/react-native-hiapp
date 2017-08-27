@@ -9,6 +9,7 @@ const Item = List.Item
 export default class HomeScreen extends React.Component {
   static navigationOptions () {
     return {
+      tabBarLabel: 'Home',
       title: 'HiApp',
     }
   }
