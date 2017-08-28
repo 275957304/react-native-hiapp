@@ -4,13 +4,15 @@ import {
   View
 } from 'react-native'
 
+import I18n from '../I18n'
+
 const Item = List.Item
 
 export default class HomeScreen extends React.Component {
-  static navigationOptions = {
-    tabBarLabel: 'Home',
+  static navigationOptions = () => ({
+    tabBarLabel: I18n.t('home'),
     title: 'HiApp',
-  }
+  })
 
   render () {
     return (

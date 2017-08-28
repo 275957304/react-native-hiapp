@@ -6,10 +6,12 @@ import {
   Image
 } from 'react-native'
 
+import I18n from '../I18n'
+
 export default class AboutScreen extends React.Component {
-  static navigationOptions = {
-    title: 'About'
-  }
+  static navigationOptions = () => ({
+    title: I18n.t('about'),
+  })
 
   render() {
     return (

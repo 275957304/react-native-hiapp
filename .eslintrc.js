@@ -16,8 +16,14 @@ module.exports = {
     'arrow-parens': 0,
     'generator-star-spacing': 0,
     'space-before-function-paren': 0,
+    'no-new': 0,
+    'handle-callback-err': 0,
+    'react/prop-types': 0,
     'react-native/no-unused-styles': 2,
     'react-native/split-platform-components': 2,
     'react-native/no-inline-styles': 2
+  },
+  globals: {
+    storage: true
   }
 }

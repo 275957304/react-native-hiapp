@@ -4,10 +4,12 @@ import {
   Text
 } from 'react-native'
 
+import I18n from '../I18n'
+
 export default class ContactsScreen extends React.Component {
-  static navigationOptions = {
-    title: 'Contacts'
-  }
+  static navigationOptions = () => ({
+    title: I18n.t('contacts'),
+  })
 
   render () {
     return (

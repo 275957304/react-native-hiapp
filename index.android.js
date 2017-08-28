@@ -1,7 +1,3 @@
-import {
-  AppRegistry
-} from 'react-native'
+import Main from './App/Main'
 
-import App from './App/App'
-
-AppRegistry.registerComponent('RNHiapp', () => App)
+export default Main
