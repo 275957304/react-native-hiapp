@@ -5,6 +5,7 @@ import MainTabNavigator from './MainTabNavigator'
 import AboutScreen from '../Screens/About'
 import LanguageScreen from '../Screens/Language'
 import ProfileScreen from '../Screens/Profile'
+import FeedbackScreen from '../Screens/Feedback'
 
 import Colors from '../Constants/Colors'
 
@@ -21,6 +22,9 @@ const RootStackNavigator = StackNavigator(
     },
     Profile: {
       screen: ProfileScreen
+    },
+    Feedback: {
+      screen: FeedbackScreen
     }
   },
   {

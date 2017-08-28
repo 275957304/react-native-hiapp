@@ -47,7 +47,7 @@ export default class SettingsScreen extends React.Component {
         </List>
         <WhiteSpace size="lg" />
         <List>
-          <Item thumb={this._renderListItemIcon('feedback2', '#0c9')} arrow="horizontal">{I18n.t('feedback')}</Item>
+          <Item thumb={this._renderListItemIcon('feedback2', '#0c9')} arrow="horizontal" onClick={() => this.props.navigation.navigate('Feedback')}>{I18n.t('feedback')}</Item>
         </List>
         <WhiteSpace size="lg" />
         <List>
