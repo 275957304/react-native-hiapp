@@ -4,6 +4,7 @@ import { StackNavigator } from 'react-navigation'
 import MainTabNavigator from './MainTabNavigator'
 import AboutScreen from '../Screens/About'
 import LanguageScreen from '../Screens/Language'
+import ProfileScreen from '../Screens/Profile'
 
 import Colors from '../Constants/Colors'
 
@@ -18,6 +19,9 @@ const RootStackNavigator = StackNavigator(
     Language: {
       screen: LanguageScreen,
     },
+    Profile: {
+      screen: ProfileScreen
+    }
   },
   {
     navigationOptions: () => ({
